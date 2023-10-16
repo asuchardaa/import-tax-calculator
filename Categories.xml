@@ -1,0 +1,508 @@
+<?xml version="1.0" standalone="yes"?>
+<DCRoot>
+  <ProductList>
+    <QueryName />
+    <TL>'01'</TL>
+    <Desc>Live animals</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'02'</TL>
+    <Desc>Meat and edible meat offal</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'03'</TL>
+    <Desc>Fish and crustaceans, molluscs and other aquatic invertebrates</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'04'</TL>
+    <Desc>Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere
+      specified or included</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'05'</TL>
+    <Desc>Products of animal origin, not elsewhere specified or included</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'06'</TL>
+    <Desc>Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'07'</TL>
+    <Desc>Edible vegetables and certain roots and tubers</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'08'</TL>
+    <Desc>Edible fruit and nuts; peel of citrus fruit or melons</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'09'</TL>
+    <Desc>Coffee, tea, mate and spices</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'10'</TL>
+    <Desc>Cereals</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'11'</TL>
+    <Desc>Products of the milling industry; malt; starches; inulin; wheat gluten</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'12'</TL>
+    <Desc>Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or
+      medicinal plants; straw and fodder</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'13'</TL>
+    <Desc>Lac; gums, resins and other vegetable saps and extracts</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'14'</TL>
+    <Desc>Vegetable plaiting materials; vegetable products not elsewhere specified or included</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'15'</TL>
+    <Desc>Animal or vegetable fats and oils and their cleavage products; prepared edible fats;
+      animal or vegetable waxes</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'16'</TL>
+    <Desc>Preparations of meat, of fish or of crustaceans, molluscs or other aquatic invertebrates</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'17'</TL>
+    <Desc>Sugars and sugar confectionery</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'18'</TL>
+    <Desc>Cocoa and cocoa preparations</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'19'</TL>
+    <Desc>Preparations of cereals, flour, starch or milk; pastrycooks' products</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'20'</TL>
+    <Desc>Preparations of vegetables, fruit, nuts or other parts of plants</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'21'</TL>
+    <Desc>Miscellaneous edible preparations</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'22'</TL>
+    <Desc>Beverages, spirits and vinegar</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'23'</TL>
+    <Desc>Residues and waste from the food industries; prepared animal fodder</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'24'</TL>
+    <Desc>Tobacco and manufactured tobacco substitutes</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'25'</TL>
+    <Desc>Salt; sulphur; earths and stone; plastering materials, lime and cement</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'26'</TL>
+    <Desc>Ores, slag and ash</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'27'</TL>
+    <Desc>Mineral fuels, mineral oils and products of their distillation; bituminous substances;
+      mineral waxes</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'28'</TL>
+    <Desc>Inorganic chemicals; organic or inorganic compounds of precious metals, of rare- earth
+      metals, of radioactive elements or of isotopes</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'29'</TL>
+    <Desc>Organic chemicals</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'30'</TL>
+    <Desc>Pharmaceutical products</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'31'</TL>
+    <Desc>Fertilisers</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'32'</TL>
+    <Desc>Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other
+      colouring matter; paints and varnishes; putty and other mastics; inks</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'33'</TL>
+    <Desc>Essential oils and resinoids; perfumery, cosmetic or toilet preparations</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'34'</TL>
+    <Desc>Soap, organic surface-active agents, washing preparations, lubricating preparations,
+      artificial waxes, prepared waxes, polishing or scouring preparations, candles and similar
+      articles, modelling pastes, "dental waxes" and dental preparations with a basis of plaster</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'35'</TL>
+    <Desc>Albuminoidal substances; modified starches; glues; enzymes</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'36'</TL>
+    <Desc>Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible
+      preparations</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'37'</TL>
+    <Desc>Photographic or cinematographic goods</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'38'</TL>
+    <Desc>Miscellaneous chemical products</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'39'</TL>
+    <Desc>Plastics and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'40'</TL>
+    <Desc>Rubber and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'41'</TL>
+    <Desc>Raw hides and skins (other than furskins) and leather</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'42'</TL>
+    <Desc>Articles of leather; saddlery and harness; travel goods, handbags and similar containers;
+      articles of animal gut (other than silk- worm gut)</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'43'</TL>
+    <Desc>Furskins and artificial fur; manufactures thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'44'</TL>
+    <Desc>Wood and articles of wood; wood charcoal</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'45'</TL>
+    <Desc>Cork and articles of cork</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'46'</TL>
+    <Desc>Manufactures of straw, of esparto or of other plaiting materials; basketware and
+      wickerwork</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'47'</TL>
+    <Desc>Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper
+      and paperboard</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'48'</TL>
+    <Desc>Paper and paperboard; articles of paper pulp, of paper or of paperboard</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'49'</TL>
+    <Desc>Printed books, newspapers, pictures and other products of the printing industry;
+      manuscripts, typescripts and plans</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'50'</TL>
+    <Desc>Silk</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'51'</TL>
+    <Desc>Wool, fine or coarse animal hair; horsehair yarn and woven fabric</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'52'</TL>
+    <Desc>Cotton</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'53'</TL>
+    <Desc>Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'54'</TL>
+    <Desc>Man-made filaments</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'55'</TL>
+    <Desc>Man-made staple fibres</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'56'</TL>
+    <Desc>Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles
+      thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'57'</TL>
+    <Desc>Carpets and other textile floor coverings</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'58'</TL>
+    <Desc>Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'59'</TL>
+    <Desc>Impregnated, coated, covered or laminated textile fabrics; textile articles of a kind
+      suitable for industrial use</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'60'</TL>
+    <Desc>Knitted or crocheted fabrics</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'61'</TL>
+    <Desc>Articles of apparel and clothing accessories, knitted or crocheted</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'62'</TL>
+    <Desc>Articles of apparel and clothing accessories, not knitted or crocheted</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'63'</TL>
+    <Desc>Other made up textile articles; sets; worn clothing and worn textile articles; rags</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'64'</TL>
+    <Desc>Footwear, gaiters and the like; parts of such articles</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'65'</TL>
+    <Desc>Headgear and parts thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'66'</TL>
+    <Desc>Umbrellas, sun umbrellas, walking- sticks, seat- sticks, whips, riding- crops and parts
+      thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'67'</TL>
+    <Desc>Prepared feathers and down and articles made of feathers or of down; artificial flowers;
+      articles of human hair</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'68'</TL>
+    <Desc>Articles of stone, plaster, cement, asbestos, mica or similar materials</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'69'</TL>
+    <Desc>Ceramic products</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'70'</TL>
+    <Desc>Glass and glassware</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'71'</TL>
+    <Desc>Natural or cultured pearls, precious or semi- precious stones, precious metals, metals
+      clad with precious metal, and articles thereof; imitation jewellery; coin</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'72'</TL>
+    <Desc>Iron and steel</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'73'</TL>
+    <Desc>Articles of iron or steel</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'74'</TL>
+    <Desc>Copper and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'75'</TL>
+    <Desc>Nickel and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'76'</TL>
+    <Desc>Aluminium and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'78'</TL>
+    <Desc>Lead and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'79'</TL>
+    <Desc>Zinc and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'80'</TL>
+    <Desc>Tin and articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'81'</TL>
+    <Desc>Other base metals; cermets; articles thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'82'</TL>
+    <Desc>Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'83'</TL>
+    <Desc>Miscellaneous articles of base metal</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'84'</TL>
+    <Desc>Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'85'</TL>
+    <Desc>Electrical machinery and equipment and parts thereof; sound recorders and reproducers,
+      television image and sound recorders and reproducers, and parts and accessories of such
+      articles</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'86'</TL>
+    <Desc>Railway or tramway locomotives, rolling- stock and parts thereof; railway or tramway track
+      fixtures and fittings and parts thereof; mechanical (including electro- mechanical) traffic
+      signalling equipment of all kinds</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'87'</TL>
+    <Desc>Vehicles other than railway or tramway rolling- stock, and parts and accessories thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'88'</TL>
+    <Desc>Aircraft, spacecraft, and parts thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'89'</TL>
+    <Desc>Ships, boats and floating structures</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'90'</TL>
+    <Desc>Optical, photographic, cinematographic, measuring, checking, precision, medical or
+      surgical instruments and apparatus; parts and accessories thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'91'</TL>
+    <Desc>Clocks and watches and parts thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'92'</TL>
+    <Desc>Musical instruments; parts and accessories of such articles</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'93'</TL>
+    <Desc>Arms and ammunition; parts and accessories thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'94'</TL>
+    <Desc>Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed
+      furnishings; lamps and lighting fittings, not elsewhere specified or included; illuminated
+      signs, illuminated name- plates and the like; prefabricated buildings</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'95'</TL>
+    <Desc>Toys, games and sports requisites; parts and accessories thereof</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'96'</TL>
+    <Desc>Miscellaneous manufactured articles</Desc>
+  </ProductList>
+  <ProductList>
+    <QueryName />
+    <TL>'97'</TL>
+    <Desc>Works of art, collectors' pieces and antiques</Desc>
+  </ProductList>
+</DCRoot>
