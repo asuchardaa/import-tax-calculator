@@ -1,0 +1,593 @@
+{
+    "AMRoot": {
+      "AMS": [
+        {
+          "Name": "Argentina",
+          "Currency": "$ (En $ de 1992)",
+          "Base": 86529749,
+          "Tables": "AGST/ARG - cuadro justificante 4 a 8",
+          "Source": "Rectif",
+          "Notes": "Campaña de comercialización. Designación de los productos de base: Tabaco.",
+          "_x0031_995": 85378903.34,
+          "_x0031_996": 84228057.68,
+          "_x0031_997": 83077212.01,
+          "_x0031_998": 81926366.35,
+          "_x0031_999": 80775520.69,
+          "_x0032_000": 79624675.03,
+          "_x0032_001": 78473829.37,
+          "_x0032_002": 77322983.71,
+          "_x0032_003": 76172138.04,
+          "_x0032_004": 75021292.38
+        },
+        {
+          "Name": "Armenia",
+          "Tables": "WT/ACC/SPEC/ARM/4/Rev.3",
+          "Source": "Accession",
+          "Notes": "For the purposes of Article 6.4(a) of the Agreement on Agriculture, with respect to product-specific domestic support, the percentage of Armenia’s total value of production of a basic agricultural product during the relevant year, and with respect to non-product specific domestic support, the percentage of the value of Armenia’s total agricultural production, which would otherwise be required to be included in a Member's calculation of its Current  AMS, shall be 10 per cent through 31 December 2008.  Beginning on 1 January 2009, such percentages for product-specific and non-product-specific domestic support, which would otherwise be required to be included in Armenia’s calculation of its Current AMS, shall be 5 per cent."
+        },
+        {
+          "Name": "Australia",
+          "Currency": "AUD Millions",
+          "Base": 589.82,
+          "Tables": "AGST/AUS: Supporting tables 6,7,8 &amp; 9",
+          "Source": "UR",
+          "Notes": "Base Total AMS is broken down into: product-specific AMS $A72.07 million; equivalent measurement of support $A517.75 million; non-product-specific AMS $A0",
+          "_x0031_995": 570.16,
+          "_x0031_996": 550.5,
+          "_x0031_997": 530.84,
+          "_x0031_998": 511.18,
+          "_x0031_999": 491.52,
+          "_x0032_000": 471.86
+        },
+        {
+          "Name": "Bangladesh",
+          "Tables": "AGST/BGD",
+          "Source": "UR"
+        },
+        {
+          "Name": "Barbados",
+          "Tables": "AGST/BRB",
+          "Source": "UR"
+        },
+        {
+          "Name": "Brazil",
+          "Currency": "US$ 1000",
+          "Base": 1053239.2,
+          "Tables": "AGST/BRA; supporting tables 4,5, 6,8 and 10",
+          "Source": "UR",
+          "_x0031_995": 1039125.79,
+          "_x0031_996": 1025012.39,
+          "_x0031_997": 1010898.98,
+          "_x0031_998": 996785.58,
+          "_x0031_999": 982672.17,
+          "_x0032_000": 968558.77,
+          "_x0032_001": 954445.36,
+          "_x0032_002": 940331.96,
+          "_x0032_003": 926218.55,
+          "_x0032_004": 912105.15
+        },
+        {
+          "Name": "Cabo Verde",
+          "Tables": "WT/ACC/SPEC/CPV/1/Rev.4",
+          "Source": "Accession"
+        },
+        {
+          "Name": "Cambodia",
+          "Tables": "WT/ACC/SPEC/KHM/3/Rev.2",
+          "Source": "Accession"
+        },
+        {
+          "Name": "Canada",
+          "Currency": "$ million",
+          "Base": 5376,
+          "Tables": "AGST/CAN:  Supporting Tables 4, 6, 7, 8 and 10 refer",
+          "Source": "UR",
+          "Notes": "Canada understands that domestic support programs will continue to be non-countervailable until the conclusion of the negotiations referred to in Article 20 of the Agreement on Agriculture",
+          "_x0031_995": 5197,
+          "_x0031_996": 5017,
+          "_x0031_997": 4838,
+          "_x0031_998": 4659,
+          "_x0031_999": 4480,
+          "_x0032_000": 4301
+        },
+        {
+          "Name": "Chile",
+          "Tables": "AGST/CHL",
+          "Source": "UR"
+        },
+        {
+          "Name": "China",
+          "Currency": "million RMB yuan",
+          "Base": 0,
+          "Tables": "WT/ACC/CHN/38/Rev.3",
+          "Source": "Accession"
+        },
+        {
+          "Name": "Chinese Taipei",
+          "Currency": "Million NT$",
+          "Base": 17706.44,
+          "Tables": "WT/ACC/SPEC/TPKM/4/Rev.3",
+          "Source": "Accession",
+          "_x0031_995": 17116.22,
+          "_x0031_996": 16526.01,
+          "_x0031_997": 15935.79,
+          "_x0031_998": 15345.58,
+          "_x0031_999": 14755.36,
+          "_x0032_000": 14165.15
+        },
+        {
+          "Name": "Colombia",
+          "Currency": "thousand US$",
+          "Base": 397769,
+          "Tables": "Cuadros justificantes Nos. 6 y 8 (AGST/COL)",
+          "Source": "UR",
+          "_x0031_995": 392465,
+          "_x0031_996": 387165,
+          "_x0031_997": 381858,
+          "_x0031_998": 376555,
+          "_x0031_999": 371251,
+          "_x0032_000": 365947,
+          "_x0032_001": 360644,
+          "_x0032_002": 355340,
+          "_x0032_003": 350037,
+          "_x0032_004": 344733
+        },
+        {
+          "Name": "Costa Rica",
+          "Currency": "MILES DE US$",
+          "Base": 18399,
+          "Tables": "AGST/CRI: Cuadros justificantes 4, 5, 6 y 8",
+          "Source": "UR",
+          "_x0031_995": 18153,
+          "_x0031_996": 17908,
+          "_x0031_997": 17663,
+          "_x0031_998": 17417,
+          "_x0031_999": 17172,
+          "_x0032_000": 16927,
+          "_x0032_001": 16681,
+          "_x0032_002": 16436,
+          "_x0032_003": 16191,
+          "_x0032_004": 15945
+        },
+        {
+          "Name": "Dominican Republic",
+          "Tables": "AGST/DOM",
+          "Source": "UR"
+        },
+        {
+          "Name": "Ecuador",
+          "Tables": "AGST/ECU",
+          "Source": "Accession"
+        },
+        {
+          "Name": "El Salvador",
+          "Tables": "AGST/SLV",
+          "Source": "UR"
+        },
+        {
+          "Name": "European Union",
+          "Currency": "€ million",
+          "Source": "HS02",
+          "Notes": "Country\t\t\t Commitments in Million EURO\t\t\t\nEU15 \t\t\t\t67 159\t\t\nCyprus\t\t\t\t 88\t\t\nCzech Republic\t\t\t\t 406\t\t\nEstonia\t\t\t\t 0\t\t\nHungary\t\t\t\t 134\t\t\nLatvia\t\t\t\t 0\t\t\nLithuania\t\t\t\t 26\t\t\nMalta\t\t\t\t 0\t\t\nPoland\t\t\t\t 3 612\t\t\nSlovakia\t\t\t\t 237\t\t\nSlovenia\t\t\t\t 62\t\t\nConsolidated EU-25 Commitments in \nMillion EUR \t\t\t\t71 724\t\t\n\t\t\t\t\t\t\nIn addition to the commitments based on total AMS, the European Union undertakes to grant support for oilseeds in accordance with the Memorandum of Understanding in the Annex.",
+          "_x0032_016": 71724
+        },
+        {
+          "Name": "Guatemala",
+          "Tables": "AGST/GTM - Cuadro justificante 4",
+          "Source": "UR"
+        },
+        {
+          "Name": "Iceland",
+          "Currency": "M SDR",
+          "Base": 162.6,
+          "Tables": "Document AGST/ICE: Supporting tables 4, 6, 7 and 8.",
+          "Source": "HS96",
+          "_x0031_995": 157.2,
+          "_x0031_996": 151.8,
+          "_x0031_997": 146.4,
+          "_x0031_998": 140.9,
+          "_x0031_999": 135.5,
+          "_x0032_000": 130.1
+        },
+        {
+          "Name": "India",
+          "Tables": "AGST/IND",
+          "Source": "UR"
+        },
+        {
+          "Name": "Indonesia",
+          "Tables": "AGST/IDN: Supporting Tables 4 and 5 refer.",
+          "Source": "UR"
+        },
+        {
+          "Name": "Israel",
+          "Currency": "1000 $",
+          "Base": 654000,
+          "Tables": "AGST/ISR:Supporting Tables 1, 2, 3",
+          "Source": "UR",
+          "_x0031_995": 645490,
+          "_x0031_996": 636996,
+          "_x0031_997": 628494,
+          "_x0031_998": 619992,
+          "_x0031_999": 611490,
+          "_x0032_000": 602988,
+          "_x0032_001": 594486,
+          "_x0032_002": 585984,
+          "_x0032_003": 577482,
+          "_x0032_004": 568980
+        },
+        {
+          "Name": "Japan",
+          "Currency": "billion yen",
+          "Base": 4966.1,
+          "Tables": "AGST/JPN",
+          "Source": "UR",
+          "_x0031_995": 4800.6,
+          "_x0031_996": 4635,
+          "_x0031_997": 4469.5,
+          "_x0031_998": 4304,
+          "_x0031_999": 4138.4,
+          "_x0032_000": 3972.9
+        },
+        {
+          "Name": "Jordan",
+          "Currency": "Jordanian Dinar",
+          "Base": 1539199,
+          "Tables": "WT/ACC/SPEC/JOR/2/Rev.3",
+          "Source": "Accession",
+          "_x0032_000": 1509881,
+          "_x0032_001": 1480563,
+          "_x0032_002": 1451245,
+          "_x0032_003": 1421927,
+          "_x0032_004": 1392609,
+          "_x0032_005": 1363291,
+          "_x0032_006": 1333973
+        },
+        {
+          "Name": "Kazakhstan",
+          "Tables": "DS:1 to DS:9 in document WT/ACC/SPEC/KAZ/6/Rev.14",
+          "Source": "Accession",
+          "Notes": "For the purpose of Article 6.4(a) of the Agreement on Agriculture, with respect to product-specific domestic support, the percentage of Kazakhstan's total value of production of a basic agricultural product during the relevant year, and with respect to non-product specific domestic support, the percentage of the value of Kazakhstan's total agricultural production, which would otherwise be required to be included in a Member's calculation in its Current AMS, shall be 8.5 per cent."
+        },
+        {
+          "Name": "Korea, Republic of",
+          "Currency": "bil. W (Korean won)",
+          "Base": 1718.6,
+          "Tables": "Cf. AGST/KOR, Supporting Tables:  4, 5, 6, 7, 8 and 10",
+          "Source": "HS96",
+          "Notes": "Information in original schedule reads as follows: \n2004  1,490.00 (1,490.00)\n* Note 1 :  Refer to Note 1 of Supporting Table 6 about the numbers in parentheses.",
+          "_x0031_995": 2182.55,
+          "_x0031_996": 2105.6,
+          "_x0031_997": 2028.65,
+          "_x0031_998": 1951.7,
+          "_x0031_999": 1874.75,
+          "_x0032_000": 1797.8,
+          "_x0032_001": 1720.85,
+          "_x0032_002": 1643.9,
+          "_x0032_003": 1566.95,
+          "_x0032_004": 1490
+        },
+        {
+          "Name": "Lao People's Democratic Republic",
+          "Tables": "Supporting Tables DS:1 to DS:9 in document WT/ACC/SPEC/LAO/1/Rev.1",
+          "Source": "Accession",
+          "Notes": "Lao People's Democratic Republic has no programmes or policies that are subject to reduction commitments within the meaning of Article 6 of the Agreement on Agriculture."
+        },
+        {
+          "Name": "Malaysia",
+          "Tables": "AGST/MYS - Supporting Tables 4 and 5 refer",
+          "Source": "UR"
+        },
+        {
+          "Name": "Mexico",
+          "Currency": "Millones de Pesos de 1991",
+          "Base": 29006.889,
+          "Tables": "AGST/MEX",
+          "Source": "UR",
+          "Notes": "Notification G/AG/N/MEX/13: Nota 2:  Se eliminaron 3 ceros por el cambio de pesos a nuevos pesos.",
+          "_x0031_995": 28622.329,
+          "_x0031_996": 28237.758,
+          "_x0031_997": 27853.188,
+          "_x0031_998": 27468.618,
+          "_x0031_999": 27084.048,
+          "_x0032_000": 26699.477,
+          "_x0032_001": 26314.907,
+          "_x0032_002": 25930.337,
+          "_x0032_003": 25545.766,
+          "_x0032_004": 25161.196
+        },
+        {
+          "Name": "Moldova, Republic of",
+          "Currency": "Million SDR",
+          "Base": 15.98,
+          "Tables": "WT/ACC/SPEC/MOL/1/REV.8",
+          "Source": "Accession",
+          "_x0032_001": 15.18,
+          "_x0032_002": 14.38,
+          "_x0032_003": 13.58,
+          "_x0032_004": 12.78
+        },
+        {
+          "Name": "Montenegro",
+          "Currency": "Euros",
+          "Base": 333278,
+          "Tables": "WT/ACC/SPEC/CGR/1/Rev.2",
+          "Source": "Accession",
+          "_x0032_012": 333278
+        },
+        {
+          "Name": "Morocco",
+          "Currency": "Millions de DH",
+          "Base": 790,
+          "Tables": "Cf. AGST/MAR\n4, 5, 6, 7 et 8",
+          "Source": "UR",
+          "_x0031_995": 779,
+          "_x0031_996": 769,
+          "_x0031_997": 758,
+          "_x0031_998": 748,
+          "_x0031_999": 737,
+          "_x0032_000": 727,
+          "_x0032_001": 716,
+          "_x0032_002": 706,
+          "_x0032_003": 695,
+          "_x0032_004": 685
+        },
+        {
+          "Name": "Nepal",
+          "Tables": "WT/ACC/SPEC/NPL/2/Rev.1 and Corr.1",
+          "Source": "Accession"
+        },
+        {
+          "Name": "New Zealand",
+          "Currency": "$ NZ Million",
+          "Base": 360.31,
+          "Tables": "AGST/NZL",
+          "Source": "UR",
+          "Notes": "The annual commitments are on a June year basis in line with the New Zealand Government's budgetary year.",
+          "_x0031_995": 348.3,
+          "_x0031_996": 336.29,
+          "_x0031_997": 324.28,
+          "_x0031_998": 312.27,
+          "_x0031_999": 300.26,
+          "_x0032_000": 288.25
+        },
+        {
+          "Name": "Nicaragua",
+          "Tables": "AGST/NIC",
+          "Source": "UR"
+        },
+        {
+          "Name": "North Macedonia",
+          "Currency": "Million euro",
+          "Base": 16.3,
+          "Tables": "WT/ACC/SPEC/807/5/Rev.2 and WT/ACC/SPEC/807/3/Rev.1Add.3",
+          "Source": "Accession",
+          "_x0032_003": 16.3
+        },
+        {
+          "Name": "Norway",
+          "Currency": "(Mio. NOK)",
+          "Base": 14311,
+          "Tables": "AGST/NOR Supporting Table 4, 6, 7, 8, 9 and 10.",
+          "Source": "UR",
+          "_x0031_995": 13834,
+          "_x0031_996": 13357,
+          "_x0031_997": 12880,
+          "_x0031_998": 12403,
+          "_x0031_999": 11926,
+          "_x0032_000": 11449
+        },
+        {
+          "Name": "Panama",
+          "Tables": "AGST/PAN",
+          "Source": "Accession"
+        },
+        {
+          "Name": "Papua New Guinea",
+          "Currency": "US$ million",
+          "Base": 39.2,
+          "Tables": "AGST/PNG",
+          "Source": "Accession",
+          "_x0031_995": 38.7,
+          "_x0031_996": 38.2,
+          "_x0031_997": 37.7,
+          "_x0031_998": 37.2,
+          "_x0031_999": 36.7,
+          "_x0032_000": 36.2,
+          "_x0032_001": 35.7,
+          "_x0032_002": 35.2,
+          "_x0032_003": 34.7,
+          "_x0032_004": 34.2
+        },
+        {
+          "Name": "Philippines",
+          "Tables": "AGST/PHL: Supporting Table 1a: Market Price Support - Supporting Table 1b: Base year data - Supporting Table 2: Other Product-Specific Support.",
+          "Source": "UR"
+        },
+        {
+          "Name": "Russian Federation",
+          "Currency": "Billion USD",
+          "Tables": "JOB/ACC/5/Rev.3",
+          "Source": "Accession",
+          "_x0032_012": 9,
+          "_x0032_013": 9,
+          "_x0032_014": 8.1,
+          "_x0032_015": 7.2,
+          "_x0032_016": 6.3,
+          "_x0032_017": 5.4,
+          "_x0032_018": 4.4
+        },
+        {
+          "Name": "Samoa",
+          "Tables": "Supporting Tables DS:1 to DS:9 in document WT/ACC/SPEC/SAM/3/Rev.4",
+          "Source": "Accession",
+          "Notes": "Samoa has no programmes or policies that are subject to reduction commitments within the meaning of Article 6 of the Agreement on Agriculture."
+        },
+        {
+          "Name": "Saudi Arabia, Kingdom of",
+          "Currency": "Million Saudi Riyals",
+          "Base": 3711.97,
+          "Tables": "WT/ACC/SPEC/SAU/1/Rev.10",
+          "Source": "Accession",
+          "_x0032_006": 3662.6,
+          "_x0032_007": 3613.23,
+          "_x0032_008": 3563.86,
+          "_x0032_009": 3514.49,
+          "_x0032_010": 3465.12,
+          "_x0032_011": 3415.76,
+          "_x0032_012": 3366.39,
+          "_x0032_013": 3317.02,
+          "_x0032_014": 3267.65,
+          "_x0032_015": 3218.28
+        },
+        {
+          "Name": "Seychelles",
+          "Tables": "Supporting Tables DS:1 to DS:9 in document WT/ACC/SPEC/SYC/4/Rev.2",
+          "Source": "Accession",
+          "Notes": "Seychelles has no programmes or policies that are subject to reduction commitments within the meaning of Article 6 of the Agreement on Agriculture."
+        },
+        {
+          "Name": "South Africa",
+          "Currency": "Rand '000",
+          "Base": 2519278,
+          "Tables": "See Tables 6 and 6 (Bis) in AGST/ZAF + G/AG/W/30/Rev.1",
+          "Source": "UR",
+          "Notes": "As a result of the substantial inflation rate experienced by South Africa during the period under review, together with the  marked reduction in the value of the South African rand over the same period and the widely fluctuating crop harvests as  a result of the weather, the AMS has been calculated in real terms, in US dollar terms and in percentage terms.  In all three  cases the reduction from the base period to 1991 has been significant and well beyond the 20% reduction discipline. South Africa has also unilaterally undergone significant changes in agricultural policy in the spirit of the Uruguay Round as  listed in table 6 bis.  South Africa agrees to reduce its AMS by the agreed 20% over 6 years with the understanding that the  factors indicated above are taken into consideration.",
+          "_x0031_995": 2435302,
+          "_x0031_996": 2351326,
+          "_x0031_997": 2267350,
+          "_x0031_998": 2183374,
+          "_x0031_999": 2099397,
+          "_x0032_000": 2015421
+        },
+        {
+          "Name": "Switzerland",
+          "Currency": "mio. fr.",
+          "Base": 5321,
+          "Tables": "AGST/CHE",
+          "Source": "UR",
+          "Notes": "Year1 = 1995, Year6 = 2000",
+          "_x0031_995": 5143,
+          "_x0031_996": 4966,
+          "_x0031_997": 4789,
+          "_x0031_998": 4611,
+          "_x0031_999": 4434,
+          "_x0032_000": 4257
+        },
+        {
+          "Name": "Tajikistan",
+          "Currency": "Thousand USD",
+          "Base": 182667,
+          "Tables": "WT/ACC/SPEC/TJK/3/Rev.5",
+          "Source": "Accession",
+          "_x0032_013": 182667
+        },
+        {
+          "Name": "Tanzania",
+          "Tables": "Cf. AGST/TZA",
+          "Source": "Rectif"
+        },
+        {
+          "Name": "Thailand",
+          "Currency": "million Baht",
+          "Base": 22126.18,
+          "Tables": "AGST/THA Supporting Tables,4, 5, 8 and 9",
+          "Source": "UR",
+          "_x0031_995": 21816.41,
+          "_x0031_996": 21506.64,
+          "_x0031_997": 21196.87,
+          "_x0031_998": 20887.1,
+          "_x0031_999": 20577.33,
+          "_x0032_000": 20267.56,
+          "_x0032_001": 19957.79,
+          "_x0032_002": 19648.02,
+          "_x0032_003": 19338.25,
+          "_x0032_004": 19028.48
+        },
+        {
+          "Name": "Tonga",
+          "Tables": "WT/ACC/SPEC/TON/3/Rev.3",
+          "Source": "Accession"
+        },
+        {
+          "Name": "Tunisia",
+          "Currency": "millions de Dinars",
+          "Base": 68.4,
+          "Tables": "AGST/TUN, Voir tableaux N° 4, 5, 6 et 8",
+          "Source": "UR",
+          "_x0031_995": 67.49,
+          "_x0031_996": 66.58,
+          "_x0031_997": 65.67,
+          "_x0031_998": 64.76,
+          "_x0031_999": 63.85,
+          "_x0032_000": 62.94,
+          "_x0032_001": 62.03,
+          "_x0032_002": 61.12,
+          "_x0032_003": 60.21,
+          "_x0032_004": 59.3
+        },
+        {
+          "Name": "Ukraine",
+          "Currency": "UAH million",
+          "Base": 3043.4,
+          "Tables": "WT/ACC/SPEC/UKR/1/Rev.12",
+          "Source": "Accession",
+          "_x0032_008": 3043.4
+        },
+        {
+          "Name": "United States of America",
+          "Currency": "Million USD",
+          "Base": 23879.112,
+          "Tables": "AGST/USA",
+          "Source": "UR",
+          "_x0031_995": 23083.142,
+          "_x0031_996": 22287.173,
+          "_x0031_997": 21491.203,
+          "_x0031_998": 20695.243,
+          "_x0031_999": 19899.264,
+          "_x0032_000": 19103.294
+        },
+        {
+          "Name": "Uruguay",
+          "Tables": "AGST/URY"
+        },
+        {
+          "Name": "Vanuatu",
+          "Tables": "Supporting Tables DS:1 to DS:9 in document WT/ACC/SPEC/VUT/6/Rev.3",
+          "Source": "Accession",
+          "Notes": "Vanuatu has no programmes or policies that are subject to reduction commitments within the meaning of Article 6 of the Agreement on Agriculture."
+        },
+        {
+          "Name": "Venezuela, Bolivarian Republic of",
+          "Currency": "Miles de US $",
+          "Base": 1304616,
+          "Tables": "AGST/VEN: Cuadro Justificante 4, 5, 6, 10",
+          "Source": "UR/94",
+          "_x0031_995": 1287221,
+          "_x0031_996": 1269826,
+          "_x0031_997": 1252431,
+          "_x0031_998": 1235036,
+          "_x0031_999": 1217642,
+          "_x0032_000": 1200247,
+          "_x0032_001": 1182852,
+          "_x0032_002": 1165457,
+          "_x0032_003": 1148062,
+          "_x0032_004": 1130667
+        },
+        {
+          "Name": "Viet Nam",
+          "Currency": "VND billion",
+          "Base": 3961.59,
+          "Tables": "WT/ACC/SPEC/VNM/3/Rev.7",
+          "Source": "Accession",
+          "_x0032_007": 3961.59
+        },
+        {
+          "Name": "Yemen",
+          "Tables": "Supporting Tables DS:1 to DS:9 in document WT/ACC/SPEC/YEM/1/Rev.2",
+          "Source": "Accession",
+          "Notes": "Yemen has no programmes or policies that are subject to reduction commitments within the meaning of Article 6 of the Agreement on Agriculture."
+        }
+      ]
+    }
+  }

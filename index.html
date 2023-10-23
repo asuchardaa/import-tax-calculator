@@ -58,8 +58,7 @@
         <div class="col-md-10">
             <label for="labelImportingTo" class="form-label">Importing to :</label>
             <select id="inputImportingTo" class="form-select">
-                <option selected></option>
-                <option>...</option>
+                <option selected="czech">Česká republika</option>
             </select>
         </div>
         <div class="col-md-2">
@@ -71,10 +70,8 @@
         </div>
         <hr>
         <div class="col-md-10">
-            <label for="labelImportingFrom" class="form-label">Product description :</label>
-            <select id="inputImportingFrom" class="form-select">
-                <option selected></option>
-                <option>...</option>
+            <label for="labelProductDescription" class="form-label">Product description :</label>
+            <select id="inputProductDescription" class="form-select">
             </select>
         </div>
         <div class="col-md-10">
@@ -99,6 +96,10 @@
             <input type="number" name="inputInsuranceCost" id="inputInsuranceCost">
             <label for="labelProductValue" class="form-label">*In curency of origin</label>
         </div>
+        <div class="col-md-10">
+            <label for="labelGift" class="form-label">Gift :</label>
+            <input type="checkbox" name="inputGift" id="inputGift">
+        </div>
 
 
         <div class="col-12 text-center">
@@ -114,6 +115,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
 
 </body>
 
