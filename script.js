@@ -399,3 +399,55 @@ document.addEventListener("DOMContentLoaded", function () {
         selectElement.appendChild(option); // Append the option to the select element
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const selectElement = document.getElementById("inputImportingFrom");
+
+    fetch("https://restcountries.com/v3.1/all")
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error("Nepodařilo se nám získat data :(");
+        })
+        .then(countries => {
+            // Sort countries alphabetically by name in ascending order
+            countries.sort((a, b) => a.name.common.localeCompare(b.name.common));
+
+            // Iterate through the sorted list of countries and populate the <select> element
+            countries.forEach(country => {
+                const option = document.createElement("option");
+                option.value = country.name.official; // Set value as official name
+
+                option.textContent = country.name.common; // Set the visible text
+                selectElement.appendChild(option);
+            });
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+
+    // Add event listener for the "change" event on the <select> element
+    selectElement.addEventListener("change", function (event) {
+        var selectedValue = event.target.value;
+        var headerStart = "https://restcountries.com/v3.1/name/"
+        var headerEnd = "?fields=currencies"
+        var header = headerStart.concat(selectedValue).concat(headerEnd);
+        console.log(header);
+        fetch(header)
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                }
+                throw new Error("Nepodařilo se nám získat data :(");
+            })
+            .then(currencies => {
+                alert("HEJ,vole: " + JSON.stringify(currencies));
+                //TODO: vytáhni nějak jen tu currency a tu jebneš do currency optionu, ale asi tam mít všechny, jen tuhle najít a zvolit? :))))
+            })
+    });
+});
+
+
+
