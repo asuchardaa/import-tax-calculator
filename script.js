@@ -403,8 +403,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     const selectElement = document.getElementById("inputImportingFrom");
-
-    fetch("https://restcountries.com/v3.1/all")
+    const uniqueCurrencies = new Array(); // preparation for unique currencies
+    fetch("https://restcountries.com/v3.1/all") //get all names
         .then(response => {
             if (response.ok) {
                 return response.json();
@@ -417,23 +417,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Iterate through the sorted list of countries and populate the <select> element
             countries.forEach(country => {
+
+
+                // Check if the country has currency information
+                if (country.currencies) {
+                    // Iterate through the currencies of the current country
+                    Object.keys(country.currencies).forEach(currencyCode => {
+                        // Add the currency code to the uniqueCurrencies Set
+                        uniqueCurrencies.push(currencyCode);
+                    });
+                }
+
+
                 const option = document.createElement("option");
                 option.value = country.name.official; // Set value as official name
 
                 option.textContent = country.name.common; // Set the visible text
                 selectElement.appendChild(option);
             });
+
+            //sort uniqueCurrencies
+            uniqueCurrencies.sort();
+            console.log(uniqueCurrencies);
+
+            //TODO: Create select option value and add Currencies into it :)
+
+
+
         })
         .catch(error => {
             console.error("Error:", error);
         });
 
+
     // Add event listener for the "change" event on the <select> element
     selectElement.addEventListener("change", function (event) {
-        var selectedValue = event.target.value;
-        var headerStart = "https://restcountries.com/v3.1/name/"
-        var headerEnd = "?fields=currencies"
-        var header = headerStart.concat(selectedValue).concat(headerEnd);
+        let selectedValue = event.target.value;
+        let headerStart = "https://restcountries.com/v3.1/name/"
+        let headerEnd = "?fields=currencies"
+        let header = headerStart.concat(selectedValue).concat(headerEnd);
         console.log(header);
         fetch(header)
             .then(response => {
@@ -442,9 +464,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
                 throw new Error("Nepodařilo se nám získat data :(");
             })
-            .then(currencies => {
-                alert("HEJ,vole: " + JSON.stringify(currencies));
-                //TODO: vytáhni nějak jen tu currency a tu jebneš do currency optionu, ale asi tam mít všechny, jen tuhle najít a zvolit? :))))
+            .then(data => {
+                let currencyCode = Object.keys(data[0].currencies)[0];
+                alert("HEJ: " + currencyCode);
+                //TODO: add opiton value
+            })
+            .catch(error => {
+                console.error("Error fetching data: ", error);
             })
     });
 });
