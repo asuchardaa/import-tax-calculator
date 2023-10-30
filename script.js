@@ -403,7 +403,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     const selectElement = document.getElementById("inputImportingFrom");
-    const uniqueCurrencies = new Array(); // preparation for unique currencies
+    const inputImportFromCurrency = document.getElementById("inputImportFromCurency");
+    const currencies = new Set();
     fetch("https://restcountries.com/v3.1/all") //get all names
         .then(response => {
             if (response.ok) {
@@ -414,21 +415,16 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(countries => {
             // Sort countries alphabetically by name in ascending order
             countries.sort((a, b) => a.name.common.localeCompare(b.name.common));
-
             // Iterate through the sorted list of countries and populate the <select> element
             countries.forEach(country => {
-
-
                 // Check if the country has currency information
                 if (country.currencies) {
                     // Iterate through the currencies of the current country
                     Object.keys(country.currencies).forEach(currencyCode => {
                         // Add the currency code to the uniqueCurrencies Set
-                        uniqueCurrencies.push(currencyCode);
+                        currencies.add(currencyCode);
                     });
                 }
-
-
                 const option = document.createElement("option");
                 option.value = country.name.official; // Set value as official name
 
@@ -437,13 +433,19 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             //sort uniqueCurrencies
-            uniqueCurrencies.sort();
-            console.log(uniqueCurrencies);
+            let sortedCurrencies = Array.from(currencies).sort();
+            currencies.clear();
+            sortedCurrencies.forEach(currency => {
+                currencies.add(currency);
+            });
 
-            //TODO: Create select option value and add Currencies into it :)
 
-
-
+            currencies.forEach(currency => {
+                const option = document.createElement("option");
+                option.value = currency; // Set value as official name
+                option.textContent = currency; // Set the visible text
+                inputImportFromCurrency.appendChild(option);
+            });
         })
         .catch(error => {
             console.error("Error:", error);
@@ -468,6 +470,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let currencyCode = Object.keys(data[0].currencies)[0];
                 alert("HEJ: " + currencyCode);
                 //TODO: add opiton value
+                inputImportFromCurrency.value = currencyCode;
             })
             .catch(error => {
                 console.error("Error fetching data: ", error);
