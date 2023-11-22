@@ -1,16 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Import tax calculator</title>
+    <link rel="icon" href="https://fontawesome.com/icons/calculator?f=classic&s=solid" type="image/x-icon">
+    <title>Kalkulačka CLA</title>
 </head>
 
 <body>
@@ -40,15 +37,12 @@
         </div>
     </nav>
 
-
     <p class="m-4">Clo, resp. celní poplatek, je dávka vybíraná státem při přechodu zboží přes celní hranici. Stát, nebo
-        skupina
-        států je používá jako tzv. ochranářský prostředek (aby ochránil svůj vnitřní trh před zbožím z okolních zemí),
-        jako prostředek ekonomické formy politického boje a v neposlední řadě jako prostředek, jak získat peníze.
+        skupina států je používá jako tzv. ochranářský prostředek (aby ochránil svůj vnitřní trh před zbožím z okolních
+        zemí), jako prostředek ekonomické formy politického boje a v neposlední řadě jako prostředek, jak získat peníze.
         Vybírání cla kontroluje celní správa (celní úřad) té dané země a upravuje ho celní zákon.</p>
 
-
-    <form class="row g-3 p-5" id="importForm">
+    <form class="row g-3 p-5" id="importForm" onsubmit="return onSubmitForm()">
         <div class="col-md-10">
             <label for="labelImportingFrom" class="form-label">Importing from :</label>
             <select id="inputImportingFrom" class="form-select">
@@ -78,7 +72,7 @@
         </div>
         <div class="col-md-10">
             <label for="labelProductQuantity" class="form-label">Product quantity :</label>
-            <input type="number" step="0" class="form-label" id="inputProductQuantity">
+            <input type="number" step="0" class="form-label" id="inputProductQuantity" placeholder="1">
         </div>
         <hr>
 
@@ -98,13 +92,29 @@
             <input type="checkbox" name="inputGift" id="inputGift">
         </div>
 
-
         <div class="col-12 text-center">
             <button type="submit" class="btn btn-primary">Calculate import duty and taxes</button>
         </div>
 
-
     </form>
+
+
+    <div class="modal" id="formDataModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Výsledek:</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre id="formDataContent"></pre>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zavřít</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -113,46 +123,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
-
-    <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
-
-    <script>
-        // Get the form element by its ID
-        const importForm = document.getElementById('importForm');
-
-        // Function to handle form submission
-        function onSubmit(event) {
-            event.preventDefault(); // Prevents the form from submitting the traditional way
-
-            // Get form data
-            const importingFrom = document.getElementById('inputImportingFrom').value;
-            const importingTo = document.getElementById('inputImportingTo').value;
-            const productValue = parseFloat(document.getElementById('inputProductValue').value);
-            const productQuantity = parseInt(document.getElementById('inputProductQuantity').value);
-            const shippingCost = parseFloat(document.getElementById('inputShippingCost').value);
-            const insuranceCost = parseFloat(document.getElementById('inputInsuranceCost').value);
-            const isGift = document.getElementById('inputGift').checked;
-            const productDescription = document.getElementById("inputProductDescription").value;
-
-            // Perform calculations based on form data
-            // Add your calculation logic here
-
-            // For example, displaying the results in the console
-            // console.log('Importing From:', importingFrom);
-            // console.log('Importing To:', importingTo);
-            // console.log('Product Value:', productValue);
-            // console.log('Product Quantity:', productQuantity);
-            // console.log('Shipping Cost:', shippingCost);
-            // console.log('Insurance Cost:', insuranceCost);
-            // console.log('Is Gift:', isGift);
-            console.log("Product description value: ", productDescription);
-        }
-
-        // Attach the onSubmit function to the form's submit event
-        importForm.addEventListener('submit', onSubmit);
-    </script>
-
 
 </body>
 
