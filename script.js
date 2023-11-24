@@ -388,9 +388,9 @@ const jsonData = {
     ]
 };
 
+
 document.addEventListener("DOMContentLoaded", function () {
     const inputProductDescription = document.getElementById("inputProductDescription");
-
     // Iterate through the JSON data and create options
     jsonData.ProductList.forEach(product => {
         const option = document.createElement("option");
