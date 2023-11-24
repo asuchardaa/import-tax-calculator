@@ -2,7 +2,7 @@
 const jsonData = {
     "ProductList": [
         {
-            "TL": 1,
+            "TL": 6,
             "Desc": "Živá zvířata"
         },
         {
@@ -14,15 +14,15 @@ const jsonData = {
             "Desc": "Ryby a korýši, měkkýši a další vodní bezobratlí"
         },
         {
-            "TL": 4,
+            "TL": 9,
             "Desc": "Mléčné výrobky; kuřecí vejce; přírodní med; jedlé výrobky živočišného původu, nezařazené"
         },
         {
-            "TL": 5,
+            "TL": 10,
             "Desc": "Výrobky živočišného původu, nezařazené"
         },
         {
-            "TL": 6,
+            "TL": 9,
             "Desc": "Živé stromy a jiné rostliny; cibule, kořeny a podobné; řezané květiny a okrasné listy"
         },
         {
@@ -30,359 +30,359 @@ const jsonData = {
             "Desc": "Jedlé rostliny a některé kořeny a hlízy"
         },
         {
-            "TL": 8,
+            "TL": 4,
             "Desc": "Jedlé ovoce a ořechy; kůra z citrusových plodů nebo melounů"
         },
         {
-            "TL": 9,
+            "TL": 8,
             "Desc": "Káva, čaj, mate a koření"
         },
         {
-            "TL": 10,
+            "TL": 6,
             "Desc": "Obiloviny"
         },
         {
-            "TL": 11,
+            "TL": 6,
             "Desc": "Výrobky mlýnského průmyslu; slad; škroby; inulin; pšeničný lepek"
         },
         {
-            "TL": 12,
+            "TL": 10,
             "Desc": "Olejnatá semena a ořechovité plody; různá zrna, semena a ovoce; průmyslové nebo léčivé rostliny; sláma a krmivo"
         },
         {
-            "TL": 13,
+            "TL": 9,
             "Desc": "Lák; pryskyřice a jiné rostlinné šťávy a extrakty"
         },
         {
-            "TL": 14,
+            "TL": 4,
             "Desc": "Plátno z rostlinných materiálů; rostlinné výrobky, nezařazené"
         },
         {
-            "TL": 15,
+            "TL": 3,
             "Desc": "Živočišné nebo rostlinné tuky a oleje a jejich štěpné produkty; připravené jedlé tuky; živočišné nebo rostlinné vosky"
         },
         {
-            "TL": 16,
+            "TL": 3,
             "Desc": "Přípravky z masa, ryb nebo korýšů, měkkýšů nebo jiných vodních bezobratlých"
         },
         {
-            "TL": 17,
+            "TL": 1,
             "Desc": "Cukry a cukrovinky"
         },
         {
-            "TL": 18,
+            "TL": 5,
             "Desc": "Kakao a přípravky z kakaa"
         },
         {
-            "TL": 19,
+            "TL": 4,
             "Desc": "Přípravky z obilovin, mouky, škrobu nebo mléka; výrobky pekařů"
         },
         {
-            "TL": 20,
+            "TL": 7,
             "Desc": "Přípravky z ovoce, zeleniny, ořechů nebo jiných částí rostlin"
         },
         {
-            "TL": 21,
+            "TL": 8,
             "Desc": "Různé jedlé přípravky"
         },
         {
-            "TL": 22,
+            "TL": 10,
             "Desc": "Nápoje, destiláty a ocet"
         },
         {
-            "TL": 23,
+            "TL": 10,
             "Desc": "Odpady a zbytky z potravinářského průmyslu; připravené krmivo pro zvířata"
         },
         {
-            "TL": 24,
+            "TL": 8,
             "Desc": "Tabák a náhražky tabáku"
         },
         {
-            "TL": 25,
+            "TL": 2,
             "Desc": "Sůl; síra; země a kámen; sádrové materiály, vápno a cement"
         },
         {
-            "TL": 26,
+            "TL": 2,
             "Desc": "Rudy, struska a popel"
         },
         {
-            "TL": 27,
+            "TL": 3,
             "Desc": "Minerální paliva, minerální oleje a produkty jejich destilace; ropné látky; minerální vosky"
         },
         {
-            "TL": 28,
+            "TL": 3,
             "Desc": "Anorganické chemikálie; organické nebo anorganické sloučeniny drahých kovů, vzácných zemin, radioaktivních prvků nebo izotopů"
         },
         {
-            "TL": 29,
+            "TL": 3,
             "Desc": "Organické chemikálie"
         },
         {
-            "TL": 30,
+            "TL": 4,
             "Desc": "Farmaceutické výrobky"
         },
         {
-            "TL": 31,
+            "TL": 4,
             "Desc": "Hnojiva"
         },
         {
-            "TL": 32,
+            "TL": 3,
             "Desc": "Oděrné nebo barvící extrakty; taniny a jejich deriváty; barviva, pigmenty a jiné barvící látky; barvy a laky; tmely a jiné lepidla; inkousty"
         },
         {
-            "TL": 33,
+            "TL": 9,
             "Desc": "Éterické oleje a rezinoidy; parfémy, kosmetické nebo toaletní přípravky"
         },
         {
-            "TL": 34,
-            "Desc": "Mýdla, organické povrchově aktivní látky, čisticí přípravky, mazací přípravky, umělé vosky, připravené vosky, leštidla nebo čisticí přípravky; svíčky a podobné výrobky; modelovací pasty, \"dentální vosky\" a dentální přípravky na bázi sádry"
+            "TL": 3,
+            "Desc": "Mýdla, organické povrchově aktivní látky, čisticí přípravky, mazací přípravky, umělé vosky, připravené vosky, leštidla nebo čisticí přípravky; svíčky a podobné výrobky; modelovací pasty, dentální vosky a dentální přípravky na bázi sádry"
         },
         {
-            "TL": 35,
+            "TL": 6,
             "Desc": "Albuminoidní látky; modifikované škroby; lepidla; enzymy"
         },
         {
-            "TL": 36,
+            "TL": 3,
             "Desc": "Výbušniny; pyrotechnické výrobky; zápalky; pyroforické slitiny; určité hořlavé přípravky"
         },
         {
-            "TL": 37,
+            "TL": 6,
             "Desc": "Fotografické nebo filmové zboží"
         },
         {
-            "TL": 38,
+            "TL": 6,
             "Desc": "Různé chemické výrobky"
         },
         {
-            "TL": 39,
+            "TL": 9,
             "Desc": "Plasty a výrobky z nich"
         },
         {
-            "TL": 40,
+            "TL": 5,
             "Desc": "Kaučuk a výrobky z něj"
         },
         {
-            "TL": 41,
+            "TL": 9,
             "Desc": "Syrové kůže a kůže (kromě kožešin) a kůže"
         },
         {
-            "TL": 42,
+            "TL": 10,
             "Desc": "Výrobky z kůže; sedlářství a postroje; cestovní zavazadla, kabelky a podobné kontejnery; výrobky ze střev zvířat (kromě hedvábných střev)"
         },
         {
-            "TL": 43,
+            "TL": 2,
             "Desc": "Kožešiny a umělá kožešina; výrobky z nich"
         },
         {
-            "TL": 44,
+            "TL": 10,
             "Desc": "Dřevo a výrobky z něj; dřevěné dřevěné uhlí"
         },
         {
-            "TL": 45,
+            "TL": 7,
             "Desc": "Kork a výrobky z korku"
         },
         {
-            "TL": 46,
+            "TL": 4,
             "Desc": "Výrobky ze slámy, esparta nebo jiných pletivých materiálů; košíky a pletené výrobky"
         },
         {
-            "TL": 47,
+            "TL": 5,
             "Desc": "Buničina nebo jiný vláknitý celulózový materiál; recyklovaný (odpad a drť) papír a lepenka"
         },
         {
-            "TL": 48,
+            "TL": 9,
             "Desc": "Papír a lepenka; výrobky z papírové buničiny, papíru nebo lepenky"
         },
         {
-            "TL": 49,
+            "TL": 5,
             "Desc": "Tištěné knihy, noviny, obrázky a jiné výrobky tiskárenského průmyslu; rukopisy, přepisy a plány"
         },
         {
-            "TL": 50,
+            "TL": 7,
             "Desc": "Hedvábí"
         },
         {
-            "TL": 51,
+            "TL": 2,
             "Desc": "Vlna, jemná nebo hrubá živočišná srst; konopné příze a tkaniny"
         },
         {
-            "TL": 52,
+            "TL": 1,
             "Desc": "Bavlna"
         },
         {
-            "TL": 53,
+            "TL": 6,
             "Desc": "Jiné rostlinné textilní vlákna; papírová příze a tkaniny z papírové příze"
         },
         {
-            "TL": 54,
+            "TL": 1,
             "Desc": "Umělé filamenty"
         },
         {
-            "TL": 55,
+            "TL": 9,
             "Desc": "Umělé staplíkové vlákna"
         },
         {
-            "TL": 56,
+            "TL": 1,
             "Desc": "Plst, filc a netkané textilie; speciální příze; lanka, šňůry, provazy a kabely a výrobky z nich"
         },
         {
-            "TL": 57,
+            "TL": 1,
             "Desc": "Koberce a jiné textilní podlahové krytiny"
         },
         {
-            "TL": 58,
+            "TL": 8,
             "Desc": "Speciální tkaniny; tuftované textilní tkaniny; krajky; gobelíny; ozdoby"
         },
         {
-            "TL": 59,
+            "TL": 8,
             "Desc": "Impregnované, pokryté, potažené nebo laminované textilní tkaniny; textilní výrobky vhodné pro průmyslové použití"
         },
         {
-            "TL": 60,
+            "TL": 8,
             "Desc": "Pletené nebo háčkované tkaniny"
         },
         {
-            "TL": 61,
+            "TL": 10,
             "Desc": "Články oděvu a doplňky oděvu, pletené nebo háčkované"
         },
         {
-            "TL": 62,
+            "TL": 7,
             "Desc": "Články oděvu a doplňky oděvu, nekvetené nebo háčkované"
         },
         {
-            "TL": 63,
+            "TL": 8,
             "Desc": "Ostatní konfekční výrobky; soupravy; opotřebované oděvy a opotřebované textilní výrobky; hadry"
         },
         {
-            "TL": 64,
+            "TL": 5,
             "Desc": "Obuv, nákrčníky a podobné; části těchto článků"
         },
         {
-            "TL": 65,
+            "TL": 10,
             "Desc": "Pokrývky hlavy a jejich části"
         },
         {
-            "TL": 66,
+            "TL": 9,
             "Desc": "Deštníky, sluneční deštníky, hole, hůlky, sedací hůlky, bičky, jízdní pruty a jejich části"
         },
         {
-            "TL": 67,
+            "TL": 5,
             "Desc": "Připravené peří a duše a výrobky z peří nebo duše; umělé květiny; výrobky z lidských vlasů"
         },
         {
-            "TL": 68,
+            "TL": 8,
             "Desc": "Články ze dřeva, sádry, cementu, azbestu, mica nebo podobných materiálů"
         },
         {
-            "TL": 69,
+            "TL": 4,
             "Desc": "Keramické výrobky"
         },
         {
-            "TL": 70,
+            "TL": 10,
             "Desc": "Sklo a skleněné výrobky"
         },
         {
-            "TL": 71,
+            "TL": 7,
             "Desc": "Přírodní nebo kultivované perly, drahé nebo polodrahé kameny, drahé kovy, kovy oplechované drahým kovem a výrobky z nich; imitace šperků; mince"
         },
         {
-            "TL": 72,
+            "TL": 3,
             "Desc": "Železo a ocel"
         },
         {
-            "TL": 73,
+            "TL": 9,
             "Desc": "Články z železa nebo oceli"
         },
         {
-            "TL": 74,
+            "TL": 3,
             "Desc": "Měď a výrobky z ní"
         },
         {
-            "TL": 75,
+            "TL": 5,
             "Desc": "Nikel a výrobky z něj"
         },
         {
-            "TL": 76,
+            "TL": 8,
             "Desc": "Hliník a výrobky z něj"
         },
         {
-            "TL": 78,
+            "TL": 8,
             "Desc": "Olovo a výrobky z něj"
         },
         {
-            "TL": 79,
+            "TL": 4,
             "Desc": "Zinek a výrobky z něj"
         },
         {
-            "TL": 80,
+            "TL": 10,
             "Desc": "Cín a výrobky z něj"
         },
         {
-            "TL": 81,
+            "TL": 4,
             "Desc": "Jiné neželezné kovy; kermety; články z těchto kovů"
         },
         {
-            "TL": 82,
+            "TL": 5,
             "Desc": "Nástroje, nástroje, příbor, lžíce a vidličky z neželezných kovů; jejich části z neželezných kovů"
         },
         {
-            "TL": 83,
+            "TL": 5,
             "Desc": "Různé výrobky z neželezných kovů"
         },
         {
-            "TL": 84,
+            "TL": 10,
             "Desc": "Jaderné reaktory, kotle, stroje a mechanická zařízení; jejich části"
         },
         {
-            "TL": 85,
+            "TL": 8,
             "Desc": "Elektrické stroje a zařízení a jejich části; záznamníky a reproduktory zvuku,\n      televizní obrazy a zvukoví záznamníky a reproduktory a části a příslušenství takových\n      výrobků"
         },
         {
-            "TL": 86,
+            "TL": 3,
             "Desc": "Železniční nebo tramvajové lokomotivy, kolejová vozidla a jejich části;\n      kolejové nebo tramvajové pevnostní a montážní součásti a jejich části; mechanická\n      (včetně elektromechanické) signalizační zařízení všeho druhu"
         },
         {
-            "TL": 87,
+            "TL": 1,
             "Desc": "Vozidla jiná než železniční nebo tramvajová; a jejich části a příslušenství"
         },
         {
-            "TL": 88,
+            "TL": 5,
             "Desc": "Letadla, kosmické lodě a jejich části"
         },
         {
-            "TL": 89,
+            "TL": 9,
             "Desc": "Lodě, čluny a plovoucí konstrukce"
         },
         {
-            "TL": 90,
+            "TL": 4,
             "Desc": "Optické, fotografické, kinematografické, měřicí, kontrolní, přesné, lékařské nebo\n      chirurgické nástroje a přístroje; části a příslušenství těchto výrobků"
         },
         {
-            "TL": 91,
+            "TL": 10,
             "Desc": "Hodiny a hodinky a jejich části"
         },
         {
-            "TL": 92,
+            "TL": 9,
             "Desc": "Hudební nástroje; části a příslušenství takových výrobků"
         },
         {
-            "TL": 93,
+            "TL": 4,
             "Desc": "Zbraně a střelivo; části a příslušenství takových výrobků"
         },
         {
-            "TL": 94,
+            "TL": 6,
             "Desc": "Nábytek; lůžkoviny, matrace, matracové nosiče, polštáře a podobné plněné\n      zařízení; lampy a osvětlovací tělesa, jinde neuvedené nebo zahrnuté; osvětlené\n      značky, osvětlené jmenné desky a podobné; prefabrikované budovy"
         },
         {
-            "TL": 95,
+            "TL": 2,
             "Desc": "Hračky, hry a sportovní potřeby; části a příslušenství takových výrobků"
         },
         {
-            "TL": 96,
+            "TL": 3,
             "Desc": "Různé výrobky"
         },
         {
-            "TL": 97,
+            "TL": 7,
             "Desc": "Díla umění, sběratelské kusy a starožitnosti"
         }
     ]
@@ -497,8 +497,9 @@ function onSubmitForm() {
     result = {
         Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
         Kam: formData.importingTo + " [CZK]",
-        "Výše CLA": getFinalPrice(),
+        "Výše CLA": getFinalPrice() + "[" + formData.importFromCurrency + "]",
         Dárek: formData.gift,
+        "Celní sazba": formData.productDescription + "%"
     };
     // Display form data in the modal
     displayFormData(result);
@@ -528,8 +529,10 @@ function displayFormData(formData) {
 }
 
 
+
 function getFinalPrice() {
     finalPrice = 0;
+    maxPrice = 150;
     // Get the form element by its ID
     const importForm = document.getElementById('importForm');
     // Collect form data
@@ -545,7 +548,17 @@ function getFinalPrice() {
         gift: document.getElementById('inputGift').checked,
     };
 
+    if (formData.gift) {
+        maxPrice = 45;
+    }
+    if (formData.productValue < maxPrice) {
+        vatValue = 0;
+        finalPrice = formData.productValue;
+    } else {
+        finalPrice = formData.productValue * formData.productDescription / 100;
+    }
 
-    // TODO: is gift? ...
+
+
     return finalPrice;
 }
