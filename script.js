@@ -486,6 +486,7 @@ function onSubmitForm() {
         gift: document.getElementById('inputGift').checked,
     };
 
+
     TODO: //Vypsat data a vypočítat cenu
 
     // If importFrom is Europe, than CLO = 0 
@@ -496,8 +497,8 @@ function onSubmitForm() {
     result = {
         Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
         Kam: formData.importingTo + " [CZK]",
-        "Výše CLA": 200
-
+        "Výše CLA": getFinalPrice(),
+        Dárek: formData.gift,
     };
     // Display form data in the modal
     displayFormData(result);
@@ -524,4 +525,27 @@ function displayFormData(formData) {
     // Show the modal
     const formDataModal = new bootstrap.Modal(document.getElementById('formDataModal'));
     formDataModal.show();
+}
+
+
+function getFinalPrice() {
+    finalPrice = 0;
+    // Get the form element by its ID
+    const importForm = document.getElementById('importForm');
+    // Collect form data
+    const formData = {
+        importingFrom: document.getElementById('inputImportingFrom').value,
+        importFromCurrency: document.getElementById('inputImportFromCurency').value,
+        importingTo: document.getElementById('inputImportingTo').value,
+        productDescription: document.getElementById('inputProductDescription').value,
+        productValue: document.getElementById('inputProductValue').value,
+        productQuantity: document.getElementById('inputProductQuantity').value,
+        shippingCost: document.getElementById('inputShippingCost').value,
+        insuranceCost: document.getElementById('inputInsuranceCost').value,
+        gift: document.getElementById('inputGift').checked,
+    };
+
+
+    // TODO: is gift? ...
+    return finalPrice;
 }
