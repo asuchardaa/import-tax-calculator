@@ -496,15 +496,15 @@ function onSubmitForm() {
 
     getFinalVAT().then(finalVAT => {
         result = {
+            "Výše CLA": finalVAT + ",- " + formData.importFromCurrency,
             Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
             Kam: formData.importingTo + " [CZK]",
-            "Výše CLA": finalVAT + ",-[" + formData.importFromCurrency + "]",
-            Dárek: formData.gift,
-            "Celní sazba": formData.productDescription + "%"
+            "Celní sazba": formData.productDescription + "%",
         };
         // Display form data in the modal
         displayFormData(result);
     }).catch(error => {
+
         console.error("Error fetching data: ", error);
     });
 
@@ -551,6 +551,8 @@ async function getFinalVAT() {
         gift: document.getElementById('inputGift').checked,
     };
 
+    let productValue = formData.productValue + formData.shippingCost + formData.insuranceCost;
+
     try {
         const region = await getRegion(formData);
         if (JSON.parse(region) === "Europe") {
@@ -563,10 +565,10 @@ async function getFinalVAT() {
     if (formData.gift) {
         maxPrice = 45;
     }
-    if (formData.productValue < maxPrice) {
+    if (productValue < maxPrice) {
         finalVAT = 0;
     } else {
-        finalVAT = formData.productValue * formData.productDescription / 100;
+        finalVAT = productValue * formData.productDescription / 100;
     }
     return finalVAT;
 }
