@@ -494,15 +494,20 @@ function onSubmitForm() {
     // 150: 10%
     // 200: 15% 
 
-    result = {
-        Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
-        Kam: formData.importingTo + " [CZK]",
-        "Výše CLA": getFinalPrice() + "[" + formData.importFromCurrency + "]",
-        Dárek: formData.gift,
-        "Celní sazba": formData.productDescription + "%"
-    };
-    // Display form data in the modal
-    displayFormData(result);
+    getFinalVAT().then(finalVAT => {
+        result = {
+            "Výše CLA": finalVAT + ",- " + formData.importFromCurrency,
+            Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
+            Kam: formData.importingTo + " [CZK]",
+            "Celní sazba": formData.productDescription + "%",
+        };
+        // Display form data in the modal
+        displayFormData(result);
+    }).catch(error => {
+
+        console.error("Error fetching data: ", error);
+    });
+
 
     // Prevent form submission and page reload
     return false;
@@ -530,11 +535,9 @@ function displayFormData(formData) {
 
 
 
-function getFinalPrice() {
-    finalPrice = 0;
-    maxPrice = 150;
-    // Get the form element by its ID
-    const importForm = document.getElementById('importForm');
+async function getFinalVAT() {
+    let finalVAT = 0;
+    let maxPrice = 150;
     // Collect form data
     const formData = {
         importingFrom: document.getElementById('inputImportingFrom').value,
@@ -548,17 +551,42 @@ function getFinalPrice() {
         gift: document.getElementById('inputGift').checked,
     };
 
+    let productValue = formData.productValue + formData.shippingCost + formData.insuranceCost;
+
+    try {
+        const region = await getRegion(formData);
+        if (JSON.parse(region) === "Europe") {
+            return 0;
+        }
+    } catch (error) {
+        console.error("Error fetching data: ", error);
+    }
+
     if (formData.gift) {
         maxPrice = 45;
     }
-    if (formData.productValue < maxPrice) {
-        vatValue = 0;
-        finalPrice = formData.productValue;
+    if (productValue < maxPrice) {
+        finalVAT = 0;
     } else {
-        finalPrice = formData.productValue * formData.productDescription / 100;
+        finalVAT = productValue * formData.productDescription / 100;
     }
-
-
-
-    return finalPrice;
+    return finalVAT;
 }
+
+function getRegion(formData) {
+    return fetch(`https://restcountries.com/v3.1/name/${formData.importingFrom}?fields=region`)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error("Nepodařilo se nám získat data :(");
+        })
+        .then(data => {
+            return JSON.stringify(data[0].region);
+        })
+        .catch(error => {
+            console.error("Error fetching data: ", error);
+        })
+}
+
+
