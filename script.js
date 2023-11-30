@@ -471,43 +471,29 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function onSubmitForm() {
-    // Get the form element by its ID
-    const importForm = document.getElementById('importForm');
-    // Collect form data
     const formData = {
         importingFrom: document.getElementById('inputImportingFrom').value,
         importFromCurrency: document.getElementById('inputImportFromCurency').value,
         importingTo: document.getElementById('inputImportingTo').value,
-        productDescription: document.getElementById('inputProductDescription').value,
-        productValue: document.getElementById('inputProductValue').value,
+        productDescription: parseInt(document.getElementById('inputProductDescription').value),
+        productValue: parseFloat(document.getElementById('inputProductValue').value),
         productQuantity: document.getElementById('inputProductQuantity').value,
         shippingCost: document.getElementById('inputShippingCost').value,
         insuranceCost: document.getElementById('inputInsuranceCost').value,
         gift: document.getElementById('inputGift').checked,
     };
 
-
-    TODO: //Vypsat data a vypočítat cenu
-
-    // If importFrom is Europe, than CLO = 0 
-    // case (giftValue): 
-    // 150: 10%
-    // 200: 15% 
-
-    getFinalVAT().then(finalVAT => {
+    getFinalVAT(formData).then(finalVAT => {
         result = {
-            "Výše CLA": finalVAT + ",- " + formData.importFromCurrency,
+            "Výše CLA": finalVAT.toFixed(2) + ",- " + formData.importFromCurrency,
             Odkud: formData.importingFrom + " [" + formData.importFromCurrency + "]",
-            Kam: formData.importingTo + " [CZK]",
-            "Celní sazba": formData.productDescription + "%",
+            Kam: formData.importingTo + " [CZK]"
         };
         // Display form data in the modal
         displayFormData(result);
     }).catch(error => {
-
         console.error("Error fetching data: ", error);
     });
-
 
     // Prevent form submission and page reload
     return false;
@@ -535,23 +521,11 @@ function displayFormData(formData) {
 
 
 
-async function getFinalVAT() {
-    let finalVAT = 0;
+async function getFinalVAT(formData) {
+    const CZECH_DPH = 0.21;
+    let maxGiftPrice = 22;
     let maxPrice = 150;
-    // Collect form data
-    const formData = {
-        importingFrom: document.getElementById('inputImportingFrom').value,
-        importFromCurrency: document.getElementById('inputImportFromCurency').value,
-        importingTo: document.getElementById('inputImportingTo').value,
-        productDescription: document.getElementById('inputProductDescription').value,
-        productValue: document.getElementById('inputProductValue').value,
-        productQuantity: document.getElementById('inputProductQuantity').value,
-        shippingCost: document.getElementById('inputShippingCost').value,
-        insuranceCost: document.getElementById('inputInsuranceCost').value,
-        gift: document.getElementById('inputGift').checked,
-    };
-
-    let productValue = formData.productValue + formData.shippingCost + formData.insuranceCost;
+    let productValue = (parseFloat(formData.productValue).toFixed(2) * parseFloat(formData.productQuantity)) + parseFloat(formData.shippingCost) + parseFloat(formData.insuranceCost);
 
     try {
         const region = await getRegion(formData);
@@ -563,14 +537,16 @@ async function getFinalVAT() {
     }
 
     if (formData.gift) {
-        maxPrice = 45;
+        maxGiftPrice = 45;
     }
-    if (productValue < maxPrice) {
-        finalVAT = 0;
-    } else {
-        finalVAT = productValue * formData.productDescription / 100;
+    if (productValue <= maxGiftPrice) {
+        return 0;
+    } else if (productValue <= maxPrice) {
+        return productValue * CZECH_DPH;
     }
-    return finalVAT;
+    else {
+        return parseFloat(productValue * (formData.productDescription / 100));
+    }
 }
 
 function getRegion(formData) {
@@ -588,5 +564,4 @@ function getRegion(formData) {
             console.error("Error fetching data: ", error);
         })
 }
-
 

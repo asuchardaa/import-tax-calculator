@@ -13,7 +13,9 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <a class="navbar-brand" href="#">
+                <img src="./vectigal_logo.png" alt="Vectigal logo" height="36">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,74 +28,73 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
                 </ul>
                 <span class="navbar-text">
-                    Navbar text with an inline element
+                    <strong>Vectigal</strong>
                 </span>
             </div>
         </div>
     </nav>
 
-    <p class="m-4">Clo, resp. celní poplatek, je dávka vybíraná státem při přechodu zboží přes celní hranici. Stát, nebo
+    <p class="m-4"> <strong>Clo</strong>, resp. celní poplatek, je dávka vybíraná státem při přechodu zboží přes celní
+        hranici.</p>
+    <p class="m-4">Stát, nebo
         skupina států je používá jako tzv. ochranářský prostředek (aby ochránil svůj vnitřní trh před zbožím z okolních
         zemí), jako prostředek ekonomické formy politického boje a v neposlední řadě jako prostředek, jak získat peníze.
         Vybírání cla kontroluje celní správa (celní úřad) té dané země a upravuje ho celní zákon.</p>
 
-    <form class="row g-3 p-5" id="importForm" onsubmit="return onSubmitForm()">
+    <form class="row g-3 p-5 m-5 shadow-sm p-3 mb-5 bg-white rounded" id="importForm" onsubmit="return onSubmitForm()">
         <div class="col-md-10">
-            <label for="labelImportingFrom" class="form-label">Importing from :</label>
+            <label for="labelImportingFrom" class="form-label">Původ zboží :</label>
             <select id="inputImportingFrom" class="form-select">
             </select>
         </div>
         <div class="col-md-2">
-            <label for="labelImportFromCurency" class="form-label">Curency :</label>
+            <label for="labelImportFromCurency" class="form-label">Měna :</label>
             <select id="inputImportFromCurency" class="form-select">
             </select>
         </div>
         <div class="col-md-10">
-            <label for="labelImportingTo" class="form-label">Importing to :</label>
+            <label for="labelImportingTo" class="form-label">Cílová destinace :</label>
             <select id="inputImportingTo" class="form-select">
                 <option selected="czech">Česká republika</option>
             </select>
         </div>
         <hr>
         <div class="col-md-10">
-            <label for="labelProductDescription" class="form-label">Product description :</label>
+            <label for="labelProductDescription" class="form-label">Charakteristika zboží :</label>
             <select id="inputProductDescription" class="form-select">
             </select>
         </div>
         <div class="col-md-10">
-            <label for="labelProductValue" class="form-label">Product value :</label>
+            <label for="labelProductValue" class="form-label">Hodnota zboží :</label>
             <input type="number" step="0.01" class="form-label" id="inputProductValue">
-            <label for="labelProductValue" class="form-label">*In curency of origin</label>
+            <label for="labelProductValue" class="form-label">*Započítává se v měně země původu</label>
         </div>
         <div class="col-md-10">
-            <label for="labelProductQuantity" class="form-label">Product quantity :</label>
+            <label for="labelProductQuantity" class="form-label">Množství :</label>
             <input type="number" step="0" class="form-label" id="inputProductQuantity" placeholder="1">
         </div>
         <hr>
 
         <div class="col-md-10">
-            <label for="labelShippingCost" class="form-label">Shipping cost :</label>
+            <label for="labelShippingCost" class="form-label">Poštovné :</label>
             <input type="number" step="0.01" name="inputShippingCost" id="inputShippingCost">
-            <label for="labelProductValue" class="form-label">*In curency of origin</label>
+            <label for="labelProductValue" class="form-label">*Započítává se v měně země původu</label>
         </div>
 
         <div class="col-md-10">
-            <label for="labelInsuranceCost" class="form-label">Insurance cost :</label>
+            <label for="labelInsuranceCost" class="form-label">Pojištění :</label>
             <input type="number" step="0.01" name="inputInsuranceCost" id="inputInsuranceCost">
-            <label for="labelProductValue" class="form-label">*In curency of origin</label>
+            <label for="labelProductValue" class="form-label">*Započítává se v měně země původu</label>
         </div>
         <div class="col-md-10">
-            <label for="labelGift" class="form-label">Gift :</label>
+            <label for="labelGift" class="form-label">Jedná se o dárek :</label>
             <input type="checkbox" name="inputGift" id="inputGift">
         </div>
 
         <div class="col-12 text-center">
-            <button type="submit" class="btn btn-primary">Calculate import duty and taxes</button>
+            <button type="submit" class="btn btn-primary">Vypočítat daně</button>
         </div>
 
     </form>
